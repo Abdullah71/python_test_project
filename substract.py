@@ -1,0 +1,1 @@
+print("Subtracting numbers: 5 - 2 =", 5 - 2)

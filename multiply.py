@@ -1,0 +1,1 @@
+print("Multiplying numbers: 4 * 3 =", 4 * 3)
