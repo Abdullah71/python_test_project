@@ -3,7 +3,6 @@ import sys
 import os
 
 # List of math operation scripts to run in order
-# scripts = ["add.py", "substract.py", "multiply.py", "divide.py"]
 math_folder = "math"
 scripts = sorted(
     f for f in os.listdir(math_folder)
