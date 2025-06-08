@@ -18,9 +18,10 @@ for script in scripts:
             text=True,
             check=False
         )
+        print("\n", end='')  # line feeds between outputs
         print(result.stdout, end='')
         if result.stderr:
             print("Errors:", result.stderr)
     except Exception as e:
         print(f"Error running {script}: {e}")
-    print("\n\n", end='')  # Two line feeds between outputs
+    print("\n", end='')  # line feeds between outputs
